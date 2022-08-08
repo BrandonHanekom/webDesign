@@ -55,6 +55,17 @@
     </div>
 
     <header>
+      <picture>
+        <source
+          media="(min-width: 650px)"
+          srcset="backgroundHeader-Medium.jpg"
+        />
+        <source
+          media="(min-width: 465px)"
+          srcset="backgroundHeader-Small.jpg"
+        />
+        <img src="/myDigitalResume/Images/backgroundHeader-Large.jpg" />
+      </picture>
       <img
         src="/Images/IMG-20220611-WA0005.jpg"
         alt="Photo of Brandon Hanekom"
@@ -83,62 +94,77 @@
           </aside>
         </div>
 
-        <div id="content">
-          <article>
-            <h2 id="education">Education</h2>
-            <h3>
-              Intro to Web at
-              <a href="https://www.codespace.co.za/" target="_blank">CodeSpace Academy</a>
-            </h3>
-            <p>
-              Educated on the basics of web design with regards to both HTML and
-              CSS.
-            </p>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm">
+              <h2 id="education">Education</h2>
+              <h3>
+                Intro to Web at
+                <a href="https://www.codespace.co.za/" target="_blank"
+                  >CodeSpace Academy</a
+                >
+              </h3>
+              <p>
+                Educated on the basics of web design with regards to both HTML
+                and CSS.
+              </p>
 
-            <h3>
-              Film and TV Production at
-              <a href="https://www.openwindow.co.za/" target="_blank">Open Window</a>
-            </h3>
-            <p>
-              Qualified with an International Certificate in Film and TV
-              Production. I'm knowledgeable with cinematography, sound design,
-              editing, screenwriting and production design. The final project
-              for the course was to write, produce and direct our own short
-              film. This helped me develop strong leadership qualities and team
-              management skills. For my short film, I won Best Director, as well
-              as being nominated for Best Editing, Best Sound Design and Best
-              Screenplay at the Saplings 2021.
-            </p>
+              <h3>
+                Film and TV Production at
+                <a href="https://www.openwindow.co.za/" target="_blank"
+                  >Open Window</a
+                >
+              </h3>
+              <p>
+                Qualified with an International Certificate in Film and TV
+                Production. I'm knowledgeable with cinematography, sound design,
+                editing, screenwriting and production design. The final project
+                for the course was to write, produce and direct our own short
+                film. This helped me develop strong leadership qualities and
+                team management skills. For my short film, I won Best Director,
+                as well as being nominated for Best Editing, Best Sound Design
+                and Best Screenplay at the Saplings 2021.
+              </p>
+            </div>
+            <div class="col-sm">
+              <h2 id="experience">Experience</h2>
+              <h3>
+                Internal Sales Representative at
+                <a href="https://borax.co.za/" target="_blank"
+                  >Borax Wholesalers</a
+                >
+              </h3>
+              <ul>
+                <li>
+                  Assist and advise costumers on suitable products that would
+                  accommodate their needs.
+                </li>
+                <li>Daily balancing of cash received and credit card slips.</li>
+                <li>
+                  Ensure goods are in stock and ready to go out for deliveries.
+                </li>
+                <li>
+                  Oversee production and packaging of products in order to
+                  guarantee goods are up to standard.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
-            <h2 id="experience">Experience</h2>
-            <h3>
-              Internal Sales Representative at
-              <a href="https://borax.co.za/" target="_blank">Borax Wholesalers</a>
-            </h3>
-            <ul>
-              <li>
-                Assist and advise costumers on suitable products that would
-                accommodate their needs.
-              </li>
-              <li>Daily balancing of cash received and credit card slips.</li>
-              <li>
-                Ensure goods are in stock and ready to go out for deliveries.
-              </li>
-              <li>
-                Oversee production and packaging of products in order to
-                guarantee goods are up to standard.
-              </li>
-            </ul>
-
-            <h2 id="skills">Skills</h2>
-            <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>Cinematography</li>
-              <li>Video Editing</li>
-              <li>Sound Design</li>
-            </ul>
-          </article>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Skills</h5>
+            <p class="card-text">What skills I have to offer:</p>
+          </div>
+          <ul>
+            <li class="list-group-item">HTML</li>
+            <li class="list-group-item">CSS</li>
+            <li class="list-group-item">Cinematography</li>
+            <li class="list-group-item">Video Editing</li>
+            <li class="list-group-item">Sound Design</li>
+          </ul>
         </div>
       </section>
     </main>
@@ -150,9 +176,14 @@
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
           />
-          <a href="mailto:brandonhanekom00@gmail.com" target="_blank" class="fa fa-google"></a>
           <a
-            href="https://www.linkedin.com/in/brandon-hanekom-b0b855231/" target="_blank"
+            href="mailto:brandonhanekom00@gmail.com"
+            target="_blank"
+            class="fa fa-google"
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/brandon-hanekom-b0b855231/"
+            target="_blank"
             class="fa fa-linkedin"
           ></a>
         </ul>

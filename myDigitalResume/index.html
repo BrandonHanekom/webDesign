@@ -55,13 +55,11 @@
     </div>
 
     <header>
-      <img
-        src="/Images/IMG-20220611-WA0005.jpg"
-        alt="Photo of Brandon Hanekom"
-        width="200"
-        height="200"
-        id="resumePhoto"
-      />
+      <picture>
+        <source media="(min-width: 650px)" srcset="/Images/resumePhoto-Medium.jpg">
+        <source media="(min-width: 465px)" srcset="/Images/resumePhoto-Small.jpg">
+        <img src="/Images/resumePhoto-large.jpg" id="resumePhoto" width="200px" height="200px">
+      </picture>
       <h1>Brandon Hanekom</h1>
       <p>
         Team player with strong communication skills and problem solving
@@ -141,7 +139,7 @@
           </div>
         </div>
 
-        <div class="card" style="width: 18rem">
+        <div class="card d-block d-sm-none" style="width: 18rem">
           <img
             class="card-img-top"
             src="/Images/skillsCard.jpg"

@@ -21,8 +21,12 @@ ul {
     font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
 }
 
+#nav-container {
+    background-color: #89cff0;
+}
+
 header {
-    background-color: black;
+    background-image: url('/Images/backgroundHeader-Small.jpg');
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;

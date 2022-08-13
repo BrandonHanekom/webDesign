@@ -19,11 +19,11 @@
     <title>A Brandon Hanekom Resume</title>
   </head>
   <body>
-    <div class="container-fluid">
+    <div id="nav-container" class="container-fluid">
       <nav
         class="navbar navbar-expand-lg navbar-light bg-light d-block d-sm-none"
       >
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">Menu</a>
         <button
           class="navbar-toggler ms-auto"
           type="button"
@@ -55,17 +55,6 @@
     </div>
 
     <header>
-      <picture>
-        <source
-          media="(min-width: 650px)"
-          srcset="backgroundHeader-Medium.jpg"
-        />
-        <source
-          media="(min-width: 465px)"
-          srcset="backgroundHeader-Small.jpg"
-        />
-        <img src="/myDigitalResume/Images/backgroundHeader-Large.jpg" />
-      </picture>
       <img
         src="/Images/IMG-20220611-WA0005.jpg"
         alt="Photo of Brandon Hanekom"
@@ -152,19 +141,23 @@
           </div>
         </div>
 
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="/myDigitalResume/Images/skillsCard.jpg" alt="Individual working on laptop.">
+        <div class="card" style="width: 18rem">
+          <img
+            class="card-img-top"
+            src="/Images/skillsCard.jpg"
+            alt="Individual working on laptop."
+          />
           <div class="card-body">
             <h5 class="card-title">Skills</h5>
             <p class="card-text">What skills I have to offer:</p>
+            <ul>
+              <li class="list-group-item">HTML</li>
+              <li class="list-group-item">CSS</li>
+              <li class="list-group-item">Cinematography</li>
+              <li class="list-group-item">Video Editing</li>
+              <li class="list-group-item">Sound Design</li>
+            </ul>
           </div>
-          <ul>
-            <li class="list-group-item">HTML</li>
-            <li class="list-group-item">CSS</li>
-            <li class="list-group-item">Cinematography</li>
-            <li class="list-group-item">Video Editing</li>
-            <li class="list-group-item">Sound Design</li>
-          </ul>
         </div>
       </section>
     </main>

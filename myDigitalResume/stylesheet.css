@@ -36,8 +36,6 @@ header {
 #resumePhoto {
     border: 5px solid aliceblue;
     border-radius: 66%;
-    height: 50px;
-    width: 50px;
 }
 
 .main {
@@ -56,6 +54,14 @@ header {
     color: aliceblue;
 }
 
+
+.col-sm-8 {
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+}
+
 .col-sm {
     padding-top: 25px;
     padding-right: 25px;
@@ -64,7 +70,12 @@ header {
 }
 
 .card {
-    background-color: #89cff0
+    background-color: #89cff0;
+    border: none;
+}
+
+#cardCol {
+    background-color: #89cff0;
 }
 
 footer {

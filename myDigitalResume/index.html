@@ -56,9 +56,20 @@
 
     <header>
       <picture>
-        <source media="(min-width: 650px)" srcset="/Images/resumePhoto-Medium.jpg">
-        <source media="(min-width: 465px)" srcset="/Images/resumePhoto-Small.jpg">
-        <img src="/Images/resumePhoto-large.jpg" id="resumePhoto" width="200px" height="200px">
+        <source
+          media="(min-width: 1200px)"
+          srcset="/Images/resumePhoto-large.jpg"
+        />
+        <source
+          media="(min-width: 650px)"
+          srcset="/Images/resumePhoto-Medium.jpg"
+        />
+        <img
+          src="/Images/resumePhoto-Small.jpg"
+          id="resumePhoto"
+          width="200px"
+          height="200px"
+        />
       </picture>
       <h1>Brandon Hanekom</h1>
       <p>
@@ -80,10 +91,9 @@
             </ul>
           </aside>
         </div>
-
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-sm">
+        <div class="row">
+          <div class="col-sm-8">
+            <div class="container">
               <h2 id="education">Education</h2>
               <h3>
                 Intro to Web at
@@ -112,49 +122,53 @@
                 as well as being nominated for Best Editing, Best Sound Design
                 and Best Screenplay at the Saplings 2021.
               </p>
-            </div>
-            <div class="col-sm">
-              <h2 id="experience">Experience</h2>
-              <h3>
-                Internal Sales Representative at
-                <a href="https://borax.co.za/" target="_blank"
-                  >Borax Wholesalers</a
-                >
-              </h3>
-              <ul>
-                <li>
-                  Assist and advise costumers on suitable products that would
-                  accommodate their needs.
-                </li>
-                <li>Daily balancing of cash received and credit card slips.</li>
-                <li>
-                  Ensure goods are in stock and ready to go out for deliveries.
-                </li>
-                <li>
-                  Oversee production and packaging of products in order to
-                  guarantee goods are up to standard.
-                </li>
-              </ul>
+              <div class="col-sm">
+                <h2 id="experience">Experience</h2>
+                <h3>
+                  Internal Sales Representative at
+                  <a href="https://borax.co.za/" target="_blank"
+                    >Borax Wholesalers</a
+                  >
+                </h3>
+                <ul>
+                  <li>
+                    Assist and advise costumers on suitable products that would
+                    accommodate their needs.
+                  </li>
+                  <li>
+                    Daily balancing of cash received and credit card slips.
+                  </li>
+                  <li>
+                    Ensure goods are in stock and ready to go out for
+                    deliveries.
+                  </li>
+                  <li>
+                    Oversee production and packaging of products in order to
+                    guarantee goods are up to standard.
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
-        </div>
-
-        <div class="card d-block d-sm-none" style="width: 18rem">
-          <img
-            class="card-img-top"
-            src="/Images/skillsCard.jpg"
-            alt="Individual working on laptop."
-          />
-          <div class="card-body">
-            <h5 class="card-title">Skills</h5>
-            <p class="card-text">What skills I have to offer:</p>
-            <ul>
-              <li class="list-group-item">HTML</li>
-              <li class="list-group-item">CSS</li>
-              <li class="list-group-item">Cinematography</li>
-              <li class="list-group-item">Video Editing</li>
-              <li class="list-group-item">Sound Design</li>
-            </ul>
+          <div class="col-sm-4" id="cardCol">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="/Images/skillsCard.jpg"
+                alt="Individual working on laptop."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Skills</h5>
+                <p class="card-text">What skills I have to offer:</p>
+                <ul>
+                  <li class="list-group-item">HTML</li>
+                  <li class="list-group-item">CSS</li>
+                  <li class="list-group-item">Cinematography</li>
+                  <li class="list-group-item">Video Editing</li>
+                  <li class="list-group-item">Sound Design</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </section>
